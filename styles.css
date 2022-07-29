@@ -13,3 +13,16 @@ html{
     background-color: gray;
   }
 }
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
