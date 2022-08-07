@@ -40,6 +40,14 @@ align-items: center;
   margin-top: 50px;
 }
 
+#hero input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  margin: 10px;
+  height: 20px;
+  background-color: #f1c40f;
+}
+
 li{
   list-style: none;
 }
@@ -84,6 +92,16 @@ nav > ul {
   width: 100%;
   margin: 0 auto;
 
+
+}
+iframe {
+  display: block;
+  border-style:none;
+}
+
+#how-it-works {
+  justify-content: center;
+  display: flex;
 }
 
 #how-it-works > iframe{
