@@ -55,6 +55,7 @@ a {
   text-decoration: none;
   color: #000;
 }
+
 .logo {
   width: 60vw;
 }
@@ -107,4 +108,30 @@ iframe {
 #how-it-works > iframe{
   max-width: 560px;
   width: 100%;
+}
+
+#features {
+  margin-top: 30px;
+}
+
+.grid{
+  display: flex;
+}
+
+#features .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding:5px;
 }
