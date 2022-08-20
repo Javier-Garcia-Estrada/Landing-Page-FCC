@@ -1,114 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page FCC</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<!--Don't forget to link stylesheet in the future! -->
-<!-- <link rel="stylesheet" href="styles.css"> -->
+  <!--Don't forget to link stylesheet in the future! -->
+  <!-- <link rel="stylesheet" href="styles.css"> -->
 
-<body>
+  <body>
     <header id="header">
-        <div class="logo">
-            <img id="header-img"
-                src="https://www.freeiconspng.com/thumbs/guitar-pictures/get-guitar-png-pictures-6.png" />
-        </div>
-        <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-link" href="#features">Features</a></li>
-                <li><a class="nav-link" href="#how-it-works">How it works</a></li>
-                <li><a class="nav-link" href="#pricing">Pricing</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://www.freeiconspng.com/thumbs/guitar-pictures/get-guitar-png-pictures-6.png"
+        />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
     </header>
     <div class="container">
-        <section id="hero">
-            <h2>Engineered,hand-made masterpieces</h2>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input name="email" id="email" type="email" placeholder="Text">
-                <input type="submit" id="submit" value="Get started" class="btn">
-            </form>
-        </section>
-        <section id="features">
-            <div class="grid">
-                <div class="icon">
-                    <i class="fa fa-3x fa-fire"></i>
-                </div>
-                <div class="desc">
-                    <h2>Prenium Material</h2>
-                    <p>Our guitars use the finest wood which is sourced locally. This will increase the longevity of your purchase.</p>
-            </div>
+      <section id="hero">
+        <h2>Engineered,hand-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Text" />
+          <input type="submit" id="submit" value="Get started" class="btn" />
+        </form>
+      </section>
+      <section id="features">
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-fire"></i>
+          </div>
+          <div class="desc">
+            <h2>Prenium Material</h2>
+            <p>
+              Our guitars use the finest wood which is sourced locally. This
+              will increase the longevity of your purchase.
+            </p>
+          </div>
         </div>
-            <div class="grid">
-                <div class="icon">
-                    <i class="fa fa-3x fa-truck"></i>
-                    </div>
-                    <div class="desc">
-                    <h2>Fast shipping</h2>
-                    <p>Our guitars use the finest wood which is sourced locally. This will increase the longevity of
-                        your
-                        purchase.</p>
-                </div>
-            </div>
-            <div class="grid">
-                <div class="icon">
-                    <i class="fa fa-3x fa-battery-full"></i>
-                    </div>
-                    <div class="desc">
-                    <h2>Quality assurance</h2>
-                    <p>Our guitars use the finest wood which is sourced locally. This will increase the longevity of
-                        your
-                        purchase.</p>
-                </div>
-            </div>
-        </section>
-        <section id="how-it-works">
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/IG4fzs-9OEI"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </section>
-        <section id="pricing">
-            <div class="product" id="carbon">
-                <div class="level">Carbon Guitars</div>
-                <h2>$600</h2>
-                <ol>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum dolor.</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum.</li>
-                </ol>
-            </div>
-            <div class="product" id="avian">
-                <div class="level">Avian Guitars</div>
-                <h2>$800</h2>
-                <ol>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum dolor.</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum.</li>
-                </ol>
-            </div>
-            <div class="product" id="rosewood">
-                <div class="level">Rosewood Guitars</div>
-                <h2>$1200</h2>
-                <ol>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum dolor.</li>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum.</li>
-                </ol>
-            </div>
-        </section>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-truck"></i>
+          </div>
+          <div class="desc">
+            <h2>Fast shipping</h2>
+            <p>
+              Our guitars use the finest wood which is sourced locally. This
+              will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-battery-full"></i>
+          </div>
+          <div class="desc">
+            <h2>Quality assurance</h2>
+            <p>
+              Our guitars use the finest wood which is sourced locally. This
+              will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/IG4fzs-9OEI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="pricing">
+        <div class="product" id="carbon">
+          <div class="level">Carbon Guitars</div>
+          <h2>$600</h2>
+          <ol>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+        </div>
+        <div class="product" id="avian">
+          <div class="level">Avian Guitars</div>
+          <h2>$800</h2>
+          <ol>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+        </div>
+        <div class="product" id="rosewood">
+          <div class="level">Rosewood Guitars</div>
+          <h2>$1200</h2>
+          <ol>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+        </div>
+      </section>
     </div>
-</body>
-
+  </body>
 </html>
