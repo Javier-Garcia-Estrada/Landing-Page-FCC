@@ -27,7 +27,7 @@ padding: 0px 20px;
 display: flex;
 justify-content: space-around;
 align-items: center;
-/* background-color: #eee; */
+background-color: #eee;
 }
 
 #hero {
@@ -134,4 +134,27 @@ iframe {
   height: 125px;
   width: 80vw;
   padding:5px;
+}
+#pricing{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  justify-content: center;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+
+.product > h2{
+  background-color: #eee;
 }
