@@ -40,12 +40,37 @@ background-color: #eee;
   margin-top: 50px;
 }
 
+#hero > h2{
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
 #hero input[type="submit"] {
   max-width: 150px;
   width: 100%;
   margin: 10px;
   height: 20px;
+  border: 0;
+  margin: 15px 0;
   background-color: #f1c40f;
+}
+
+.btn {
+  padding: 0 20px;
+  font-weight: 900;
+  font-size: 1rem;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+#hero input[type="email"]{
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #000;
 }
 
 li{
@@ -157,4 +182,15 @@ iframe {
 
 .product > h2{
   background-color: #eee;
+}
+
+
+#pricing input[type="select"] {
+  max-width: 150px;
+  width: 100%;
+  margin: 10px;
+  height: 20px;
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
 }
