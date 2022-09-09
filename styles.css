@@ -13,9 +13,77 @@ body{
   font-family: 'Lato', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+nav {
+  font-weight: 400;
+  /* position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0; */
+}
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-link:hover{
+  color: blue;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+@media only screen and (max-width: 780px) {
   body {
     background-color: gray;
+  }
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform:translateY(8px) rotate(45deg)
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform:translateY(-8px) rotate(-45deg)
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 73.5vw;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
   }
 }
 
@@ -85,7 +153,7 @@ a {
 }
 
 .logo {
-  width: 60vw;
+  width: 65vw;
 }
 
 .logo > img {
@@ -99,20 +167,7 @@ a {
   margin-left: 20px;
 }
 
-nav {
-  font-weight: 400;
-  /* position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0; */
-}
 
-nav > ul {
-    width: 35vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
 .container {
   display: flex;
